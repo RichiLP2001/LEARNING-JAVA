@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce2fec31-74d3-42c1-a761-d4be5210b7ba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/types/Cast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/types/MinMaxValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/operators/AritmeticOperators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/operators/LogicOperators.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +38,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Cast.executor": "Run",
+    "Application.LogicOperators.executor": "Run",
     "Application.MinMaxValues.executor": "Run",
     "Application.Variable.executor": "Run",
     "Application.helloworld.executor": "Run",
@@ -48,13 +49,26 @@
     "onboarding.tips.debug.path": "C:/Users/ricar/Desktop/MASTER, DESARROLLO DE SOFTWARE Y NEGOCIO DIGITAL/WORK SPACE/hello-world/src/main/java/com/campusdual/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Cast">
+  <component name="RunManager" selected="Application.LogicOperators">
     <configuration name="Cast" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.campusdual.types.Cast" />
       <module name="hello-world" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.campusdual.types.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogicOperators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.campusdual.operators.LogicOperators" />
+      <module name="hello-world" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.campusdual.operators.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,6 +117,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LogicOperators" />
         <item itemvalue="Application.Cast" />
         <item itemvalue="Application.MinMaxValues" />
         <item itemvalue="Application.Variable" />
@@ -137,6 +152,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/campusdual/operators/LogicOperators.java</url>
+          <line>3</line>
+          <properties class="com.campusdual.operators.LogicOperators" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
