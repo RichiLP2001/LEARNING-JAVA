@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce2fec31-74d3-42c1-a761-d4be5210b7ba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/operators/AritmeticOperators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/operators/LogicOperators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/method/Method.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/campusdual/operators/AritmeticOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/operators/AritmethicOperators.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +39,7 @@
   "keyToString": {
     "Application.Cast.executor": "Run",
     "Application.LogicOperators.executor": "Run",
+    "Application.Method.executor": "Run",
     "Application.MinMaxValues.executor": "Run",
     "Application.Variable.executor": "Run",
     "Application.helloworld.executor": "Run",
@@ -49,7 +50,7 @@
     "onboarding.tips.debug.path": "C:/Users/ricar/Desktop/MASTER, DESARROLLO DE SOFTWARE Y NEGOCIO DIGITAL/WORK SPACE/hello-world/src/main/java/com/campusdual/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LogicOperators">
+  <component name="RunManager" selected="Application.Method">
     <configuration name="Cast" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.campusdual.types.Cast" />
       <module name="hello-world" />
@@ -69,6 +70,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.campusdual.operators.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Method" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.campusdual.method.Method" />
+      <module name="hello-world" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.campusdual.method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,26 +116,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="helloworld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.campusdual.helloworld" />
-      <module name="hello-world" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.campusdual.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Method" />
         <item itemvalue="Application.LogicOperators" />
         <item itemvalue="Application.Cast" />
         <item itemvalue="Application.MinMaxValues" />
         <item itemvalue="Application.Variable" />
-        <item itemvalue="Application.helloworld" />
       </list>
     </recent_temporary>
   </component>
