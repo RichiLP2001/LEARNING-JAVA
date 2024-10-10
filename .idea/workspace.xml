@@ -4,79 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce2fec31-74d3-42c1-a761-d4be5210b7ba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/method/Method.java" afterDir="false" />
+    <list default="true" id="819fef0d-ecb2-4309-80a6-18139bc9cc93" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/campusdual/operators/AritmeticOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/operators/AritmethicOperators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/campusdual/method/Method.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/method/Method.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
+  "associatedIndex": 3
 }]]></component>
-  <component name="ProjectId" id="2nC0ihtKNBdksYw3uHAw1r4LNIh" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2nEj2fbWxWB1ql2FXCFUlMmSfGw" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Cast.executor": "Run",
-    "Application.LogicOperators.executor": "Run",
     "Application.Method.executor": "Run",
-    "Application.MinMaxValues.executor": "Run",
-    "Application.Variable.executor": "Run",
-    "Application.helloworld.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/ricar/Desktop/MASTER, DESARROLLO DE SOFTWARE Y NEGOCIO DIGITAL/WORK SPACE/hello-world/src/main/java/com/campusdual/Main.java"
+    "last_opened_file_path": "C:/Users/ricar/Desktop/MASTER, DESARROLLO DE SOFTWARE Y NEGOCIO DIGITAL/WORK SPACE/hello-world"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Method">
-    <configuration name="Cast" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.campusdual.types.Cast" />
-      <module name="hello-world" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.campusdual.types.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LogicOperators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.campusdual.operators.LogicOperators" />
-      <module name="hello-world" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.campusdual.operators.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="Method" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.campusdual.method.Method" />
       <module name="hello-world" />
@@ -90,80 +49,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinMaxValues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.campusdual.types.MinMaxValues" />
-      <module name="hello-world" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.campusdual.types.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Variable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.campusdual.variables.Variable" />
-      <module name="hello-world" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.campusdual.variables.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Method" />
-        <item itemvalue="Application.LogicOperators" />
-        <item itemvalue="Application.Cast" />
-        <item itemvalue="Application.MinMaxValues" />
-        <item itemvalue="Application.Variable" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ce2fec31-74d3-42c1-a761-d4be5210b7ba" name="Changes" comment="" />
-      <created>1728461880772</created>
+      <changelist id="819fef0d-ecb2-4309-80a6-18139bc9cc93" name="Changes" comment="" />
+      <created>1728544923996</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1728461880772</updated>
+      <updated>1728544923996</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/campusdual/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/campusdual/types/MinMaxValues.java</url>
-          <line>2</line>
-          <properties class="com.campusdual.types.MinMaxValues" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/campusdual/operators/LogicOperators.java</url>
-          <line>3</line>
-          <properties class="com.campusdual.operators.LogicOperators" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
