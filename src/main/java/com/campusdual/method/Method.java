@@ -30,7 +30,7 @@ public class Method {
         System.out.println("3 is less or equal than 5: " + (5<=5));
         System.out.println("Unique true combination for AND: " + (true && true));
         System.out.println("Unique false combination for OR: " + (false || false));
-        System.out.println("NOT false: " + (!false));
+        System.out.println("NOT false: " + (!false)); // --> el "!" es un "NOT", por lo que da lo contrario si no es eso.
 
     }
 
@@ -39,14 +39,14 @@ public class Method {
     return "Hi! " + customName +  " This is your custome message";
     }
 
-        public static void main(String[] args)
-    {
+        public static void main(String[] args) {
 logicOperators();
     int arithResult = arithmeticOperators();
         System.out.println("Arithmetic result: " + arithResult );
         String name = "Ricardo";
         System.out.println(myCustomMessage(name));
         System.out.println(myCustomMessage("Nerea"));
+        logicOperators();
 
     }
 }

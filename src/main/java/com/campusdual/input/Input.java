@@ -7,8 +7,9 @@ import java.util.Scanner;
 public class Input {
     public static void useScannerToGetName (){
         Scanner scanner = new Scanner (System.in);
-        System.out.print("Write Your name"); // diferente del System.out.println("Write Your name");
-        String name = scanner.nextLine();
+        System.out.print("Write Your name"); // 1º). diferente del System.out.println("Write Your name");
+        String name = scanner.nextLine(); // <-- 2º) LA DIFERENCIA : solicitamos que escribe,
+                                            // y tomamos el valor del texto que se escriba
         System.out.println("Hi "+ name);
 
     }
