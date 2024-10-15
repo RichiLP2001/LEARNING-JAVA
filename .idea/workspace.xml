@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="819fef0d-ecb2-4309-80a6-18139bc9cc93" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/loops/BreakInLoops.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/loops/ContinueWithLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/loops/DoWhileLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/loops/InfiniteLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/classes/AnotherClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/classes/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/classes/anotherPackage/AnotherClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/statics/StaticMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/campusdual/input/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/input/Input.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/campusdual/method/Method.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/method/Method.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +26,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -41,6 +42,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AnotherClass.executor": "Run",
+    "Application.Book (1).executor": "Run",
+    "Application.Book.executor": "Run",
     "Application.BreakInLoops.executor": "Run",
     "Application.ContinueWithLoop.executor": "Run",
     "Application.DoWhileLoop.executor": "Run",
@@ -48,42 +52,23 @@
     "Application.IfStatement.executor": "Run",
     "Application.Input.executor": "Run",
     "Application.Method.executor": "Run",
+    "Application.StaticMethod.executor": "Run",
     "Application.SwitchStatement.executor": "Run",
     "Application.WhileLoop.executor": "Run",
+    "Application.com.campusdual.classes.Book.executor": "Debug",
+    "Application.com.campusdual.classes.anotherPackage.AnotherClass.executor": "Run",
     "Application.com.campusdual.loops.ForLoop.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ricar/Desktop/MASTER, DESARROLLO DE SOFTWARE Y NEGOCIO DIGITAL/WORK SPACE"
+    "last_opened_file_path": "C:/Users/ricar/Desktop/MASTER, DESARROLLO DE SOFTWARE Y NEGOCIO DIGITAL/WORK SPACE/java-08-RichiLP2001",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ContinueWithLoop">
-    <configuration name="BreakInLoops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.campusdual.loops.BreakInLoops" />
-      <module name="hello-world" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.campusdual.loops.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContinueWithLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.campusdual.loops.ContinueWithLoop" />
-      <module name="hello-world" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.campusdual.loops.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.DoWhileLoop">
     <configuration name="DoWhileLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.campusdual.loops.DoWhileLoop" />
       <module name="hello-world" />
@@ -97,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Input" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.campusdual.input.Input" />
+    <configuration name="ForLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.campusdual.loops.ForLoop" />
       <module name="hello-world" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.campusdual.input.*" />
+          <option name="PATTERN" value="com.campusdual.loops.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +95,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Method" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.campusdual.method.Method" />
+    <configuration name="IfStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.campusdual.selection.IfStatement" />
       <module name="hello-world" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.campusdual.method.*" />
+          <option name="PATTERN" value="com.campusdual.selection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaticMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.campusdual.statics.StaticMethod" />
+      <module name="hello-world" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.campusdual.statics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WhileLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.campusdual.loops.WhileLoop" />
+      <module name="hello-world" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.campusdual.loops.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ContinueWithLoop" />
-        <item itemvalue="Application.BreakInLoops" />
         <item itemvalue="Application.DoWhileLoop" />
-        <item itemvalue="Application.Input" />
-        <item itemvalue="Application.Method" />
+        <item itemvalue="Application.WhileLoop" />
+        <item itemvalue="Application.ForLoop" />
+        <item itemvalue="Application.IfStatement" />
+        <item itemvalue="Application.StaticMethod" />
       </list>
     </recent_temporary>
   </component>
