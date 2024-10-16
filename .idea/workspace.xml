@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="819fef0d-ecb2-4309-80a6-18139bc9cc93" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/classes/AnotherClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/classes/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/classes/anotherPackage/AnotherClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/statics/StaticMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/encapsulation/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/statics/StaticAttribute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/statics/UseOfStatic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/campusdual/statics/StaticMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/statics/StaticMethod.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +54,7 @@
     "Application.Method.executor": "Run",
     "Application.StaticMethod.executor": "Run",
     "Application.SwitchStatement.executor": "Run",
+    "Application.UseOfStatic.executor": "Run",
     "Application.WhileLoop.executor": "Run",
     "Application.com.campusdual.classes.Book.executor": "Debug",
     "Application.com.campusdual.classes.anotherPackage.AnotherClass.executor": "Run",
@@ -68,7 +69,7 @@
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DoWhileLoop">
+  <component name="RunManager" selected="Application.UseOfStatic">
     <configuration name="DoWhileLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.campusdual.loops.DoWhileLoop" />
       <module name="hello-world" />
@@ -95,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IfStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.campusdual.selection.IfStatement" />
+    <configuration name="StaticMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.campusdual.statics.StaticMethod" />
       <module name="hello-world" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.campusdual.selection.*" />
+          <option name="PATTERN" value="com.campusdual.statics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,8 +109,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.campusdual.statics.StaticMethod" />
+    <configuration name="UseOfStatic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.campusdual.statics.UseOfStatic" />
       <module name="hello-world" />
       <extension name="coverage">
         <pattern>
@@ -136,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UseOfStatic" />
+        <item itemvalue="Application.StaticMethod" />
         <item itemvalue="Application.DoWhileLoop" />
         <item itemvalue="Application.WhileLoop" />
         <item itemvalue="Application.ForLoop" />
-        <item itemvalue="Application.IfStatement" />
-        <item itemvalue="Application.StaticMethod" />
       </list>
     </recent_temporary>
   </component>
