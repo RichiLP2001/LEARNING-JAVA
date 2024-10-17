@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="819fef0d-ecb2-4309-80a6-18139bc9cc93" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/subclasses/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/subclasses/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/subclasses/Library.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/campusdual/encapsulation/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/encapsulation/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/campusdual/statics/UseOfStatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/statics/UseOfStatic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +50,7 @@
     "Application.ForLoop.executor": "Run",
     "Application.IfStatement.executor": "Run",
     "Application.Input.executor": "Run",
+    "Application.Library.executor": "Run",
     "Application.Method.executor": "Run",
     "Application.StaticMethod.executor": "Run",
     "Application.SwitchStatement.executor": "Run",
@@ -68,7 +70,7 @@
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Vehicle">
+  <component name="RunManager" selected="Application.Library">
     <configuration name="Book" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.campusdual.classes.Book" />
       <module name="hello-world" />
@@ -82,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoWhileLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.campusdual.loops.DoWhileLoop" />
+    <configuration name="Library" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.campusdual.subclasses.Library" />
       <module name="hello-world" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.campusdual.loops.*" />
+          <option name="PATTERN" value="com.campusdual.subclasses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Library" />
         <item itemvalue="Application.Vehicle" />
         <item itemvalue="Application.Book" />
         <item itemvalue="Application.UseOfStatic" />
         <item itemvalue="Application.StaticMethod" />
-        <item itemvalue="Application.DoWhileLoop" />
       </list>
     </recent_temporary>
   </component>
