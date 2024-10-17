@@ -8,9 +8,12 @@ public class UseOfStatic {
         System.out.println(StaticMethod.countDownToYear("Pablo", 1990));
         System.out.println("Static Attribute: ");
         System.out.println("=================");
+        //se deben crear nuevos desde la hoja la cual queremos llamaar funciones
+
         StaticAttribute sta1 = new StaticAttribute();
         StaticAttribute sta2 = new StaticAttribute();
         StaticAttribute sta3 = new StaticAttribute();
+        //para llamar desde los nuevos las funciones de otra clase
         //independientemente de cual de los sta1 activo primero, siempre contara de uno en uno, porque
         //StaticAttribute tiene un static que solo va a centrarse a contar sobre si mismo
         sta1.incrementAndPrintCounter();
