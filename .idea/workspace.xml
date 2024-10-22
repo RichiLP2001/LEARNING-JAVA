@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="819fef0d-ecb2-4309-80a6-18139bc9cc93" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/abstractclass/AngoraCat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/abstractclass/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/abstractclass/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/abstractclass/Fox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/abstractclass/Zoo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/override/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/override/Garage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/override/Tractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/override/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/Interfaces/BookingSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/Interfaces/CarBooking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/Interfaces/IBooking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/campusdual/abstractclass/AngoraCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/abstractclass/AngoraCat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -50,6 +46,7 @@
     "Application.AnotherClass.executor": "Run",
     "Application.Book (1).executor": "Run",
     "Application.Book.executor": "Run",
+    "Application.BookingSystem.executor": "Run",
     "Application.BreakInLoops.executor": "Run",
     "Application.ContinueWithLoop.executor": "Run",
     "Application.DoWhileLoop.executor": "Run",
@@ -71,7 +68,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ricar/Desktop/MASTER, DESARROLLO DE SOFTWARE Y NEGOCIO DIGITAL/WORK SPACE/java-15-RichiLP2001",
+    "last_opened_file_path": "C:/Users/ricar/Desktop/MASTER, DESARROLLO DE SOFTWARE Y NEGOCIO DIGITAL/WORK SPACE/java-16-RichiLP2001",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -79,6 +76,19 @@
   }
 }]]></component>
   <component name="RunManager" selected="Application.Zoo">
+    <configuration name="BookingSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.campusdual.Interfaces.BookingSystem" />
+      <module name="hello-world" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.campusdual.Interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ForLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.campusdual.loops.ForLoop" />
       <module name="hello-world" />
@@ -118,19 +128,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Vehicle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.campusdual.encapsulation.Vehicle" />
-      <module name="hello-world" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.campusdual.encapsulation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Zoo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.campusdual.abstractclass.Zoo" />
       <module name="hello-world" />
@@ -147,10 +144,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Zoo" />
+        <item itemvalue="Application.BookingSystem" />
         <item itemvalue="Application.Garage" />
         <item itemvalue="Application.Library" />
         <item itemvalue="Application.ForLoop" />
-        <item itemvalue="Application.Vehicle" />
       </list>
     </recent_temporary>
   </component>
@@ -164,5 +161,20 @@
       <updated>1728544923996</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/campusdual/Interfaces/IBooking.java</url>
+          <line>5</line>
+          <properties class="com.campusdual.Interfaces.IBooking" method="getTicketDetail">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

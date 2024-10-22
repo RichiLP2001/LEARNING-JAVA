@@ -7,7 +7,7 @@ public class AngoraCat extends Animal{
 
     @Override
     public void makeSound() {
-        System.out.println("Gato carnivoro");
+        System.out.println("Gato GRRRR");
     }
 
     @Override
