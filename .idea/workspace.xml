@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="819fef0d-ecb2-4309-80a6-18139bc9cc93" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/collections/ListCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/campusdual/arrays/BasicArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/arrays/BasicArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/collections/SetCollection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +55,7 @@
     "Application.Library.executor": "Run",
     "Application.ListCollection.executor": "Run",
     "Application.Method.executor": "Run",
+    "Application.SetCollection.executor": "Run",
     "Application.StaticMethod.executor": "Run",
     "Application.SwitchStatement.executor": "Run",
     "Application.UseOfStatic.executor": "Run",
@@ -76,7 +75,7 @@
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ListCollection">
+  <component name="RunManager" selected="Application.SetCollection">
     <configuration name="BasicArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.campusdual.arrays.BasicArrays" />
       <module name="hello-world" />
@@ -129,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Zoo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.campusdual.abstractclass.Zoo" />
+    <configuration name="SetCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.campusdual.collections.SetCollection" />
       <module name="hello-world" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.campusdual.abstractclass.*" />
+          <option name="PATTERN" value="com.campusdual.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SetCollection" />
         <item itemvalue="Application.ListCollection" />
         <item itemvalue="Application.BasicArrays" />
         <item itemvalue="Application.FixitShop" />
         <item itemvalue="Application.BookingSystem" />
-        <item itemvalue="Application.Zoo" />
       </list>
     </recent_temporary>
   </component>
