@@ -15,11 +15,11 @@ public class BasicArrays {
         firstIntArray[2] = 19;
 
         //--> creamos un array en el que ya asignamos
-        //el tamaño al definir el valor que tomara cada decision.
+        //el tamaño al definir el valor que tomara cada posicion.
         String[] firstStringArray = {"A", "B", "C", "D"};
 
         System.out.println("First int array lenght: " + firstIntArray.length);
-        System.out.println("First String array lngth: " + firstStringArray.length);
+        System.out.println("First String array length: " + firstStringArray.length);
 
         System.out.println("First int array position value: " + firstIntArray[0]);
         System.out.println("First String array position value: " + firstStringArray[0]);
@@ -32,9 +32,9 @@ public class BasicArrays {
         System.out.println("Loop through first int array: ");
         //i MENOR a la longitud del array que quiero recorrer.
         for (int i = 0; i < firstIntArray.length; i++) {
-            //para imprimir valores ed array en columna-->
-            //-->System.out.println(firstIntArray[i]);
-            //para imprimir los numeros de los arrays en fila(horizontal)
+          //para imprimir valores de array en columna-->
+                //-->System.out.println(firstIntArray[i]);
+          //para imprimir los numeros de los arrays en fila(horizontal)
             System.out.print(firstIntArray[i] + " ");
         }
         System.out.println();
@@ -49,14 +49,14 @@ public class BasicArrays {
         }
 
         System.out.println("\n");
-
+        //--------------------------------------------------------
         //CREACION DE MATRIZ
         int maxi = 3;
         int maxj = 3;
         int value=0;
 
         int[][] secondIntArray = new int[maxi][maxj];
-        //--> asignacion de valor a indices MANUAL a la MATRIZ.
+        //--> asignacion de VALORES a INDICES MANUALMENTE a la MATRIZ.
             /*secondIntArray[0][0]=1;
             secondIntArray[1][2]=1;*/
 
