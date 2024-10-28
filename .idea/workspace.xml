@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="819fef0d-ecb2-4309-80a6-18139bc9cc93" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/collections/StackCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/collections/MapCollection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,13 +78,13 @@
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.StackCollection">
-    <configuration name="BasicArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.campusdual.arrays.BasicArrays" />
+  <component name="RunManager" selected="Application.MapCollection">
+    <configuration name="ListCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.campusdual.collections.ListCollection" />
       <module name="hello-world" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.campusdual.arrays.*" />
+          <option name="PATTERN" value="com.campusdual.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.campusdual.collections.ListCollection" />
+    <configuration name="MapCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.campusdual.collections.MapCollection" />
       <module name="hello-world" />
       <extension name="coverage">
         <pattern>
@@ -146,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MapCollection" />
         <item itemvalue="Application.StackCollection" />
         <item itemvalue="Application.QueueCollection" />
         <item itemvalue="Application.SetCollection" />
         <item itemvalue="Application.ListCollection" />
-        <item itemvalue="Application.BasicArrays" />
       </list>
     </recent_temporary>
   </component>
