@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="819fef0d-ecb2-4309-80a6-18139bc9cc93" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/collections/SetCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/collections/QueueCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +56,7 @@
     "Application.Library.executor": "Run",
     "Application.ListCollection.executor": "Run",
     "Application.Method.executor": "Run",
+    "Application.QueueCollection.executor": "Run",
     "Application.SetCollection.executor": "Run",
     "Application.StaticMethod.executor": "Run",
     "Application.SwitchStatement.executor": "Run",
@@ -75,26 +77,13 @@
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SetCollection">
+  <component name="RunManager" selected="Application.QueueCollection">
     <configuration name="BasicArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.campusdual.arrays.BasicArrays" />
       <module name="hello-world" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.campusdual.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BookingSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.campusdual.Interfaces.BookingSystem" />
-      <module name="hello-world" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.campusdual.Interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,6 +117,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="QueueCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.campusdual.collections.QueueCollection" />
+      <module name="hello-world" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.campusdual.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SetCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.campusdual.collections.SetCollection" />
       <module name="hello-world" />
@@ -143,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QueueCollection" />
         <item itemvalue="Application.SetCollection" />
         <item itemvalue="Application.ListCollection" />
         <item itemvalue="Application.BasicArrays" />
         <item itemvalue="Application.FixitShop" />
-        <item itemvalue="Application.BookingSystem" />
       </list>
     </recent_temporary>
   </component>
