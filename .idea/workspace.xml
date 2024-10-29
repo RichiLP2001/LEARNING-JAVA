@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="819fef0d-ecb2-4309-80a6-18139bc9cc93" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/collections/MapCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/exceptions/ByZeroException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/exceptions/Exceptions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +49,7 @@
     "Application.BreakInLoops.executor": "Run",
     "Application.ContinueWithLoop.executor": "Run",
     "Application.DoWhileLoop.executor": "Run",
+    "Application.Exceptions.executor": "Run",
     "Application.FixitShop.executor": "Run",
     "Application.ForLoop.executor": "Run",
     "Application.Garage.executor": "Run",
@@ -55,6 +57,7 @@
     "Application.Input.executor": "Run",
     "Application.Library.executor": "Run",
     "Application.ListCollection.executor": "Run",
+    "Application.MapCollection.executor": "Run",
     "Application.Method.executor": "Run",
     "Application.QueueCollection.executor": "Run",
     "Application.SetCollection.executor": "Run",
@@ -71,20 +74,20 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ricar/Desktop/MASTER, DESARROLLO DE SOFTWARE Y NEGOCIO DIGITAL/WORK SPACE/hello-world",
+    "last_opened_file_path": "C:/Users/ricar/Desktop/MASTER, DESARROLLO DE SOFTWARE Y NEGOCIO DIGITAL/WORK SPACE/java-21-RichiLP2001",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MapCollection">
-    <configuration name="ListCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.campusdual.collections.ListCollection" />
+  <component name="RunManager" selected="Application.Exceptions">
+    <configuration name="Exceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.campusdual.exceptions.Exceptions" />
       <module name="hello-world" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.campusdual.collections.*" />
+          <option name="PATTERN" value="com.campusdual.exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exceptions" />
         <item itemvalue="Application.MapCollection" />
         <item itemvalue="Application.StackCollection" />
         <item itemvalue="Application.QueueCollection" />
         <item itemvalue="Application.SetCollection" />
-        <item itemvalue="Application.ListCollection" />
       </list>
     </recent_temporary>
   </component>
