@@ -1,4 +1,4 @@
-package com.campusdual.Interfaces;
+package com.campusdual.interfaces;
 
 import java.util.Date;
 

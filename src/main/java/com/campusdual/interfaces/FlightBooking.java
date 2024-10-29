@@ -1,6 +1,5 @@
-package com.campusdual.Interfaces;
+package com.campusdual.interfaces;
 
-import javax.print.attribute.standard.Sides;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 

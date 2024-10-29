@@ -1,4 +1,4 @@
-package com.campusdual.Interfaces;
+package com.campusdual.interfaces;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
