@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="819fef0d-ecb2-4309-80a6-18139bc9cc93" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/iofiles/DeleteFiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/iofiles/Reader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/xml/XMLFileCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/json/JsonFileCreator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/campusdual/iofiles/Writer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/campusdual/iofiles/Writer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/example.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +55,7 @@
     "Application.Garage.executor": "Run",
     "Application.IfStatement.executor": "Run",
     "Application.Input.executor": "Run",
+    "Application.JsonFileCreator.executor": "Run",
     "Application.Library.executor": "Run",
     "Application.ListCollection.executor": "Run",
     "Application.MapCollection.executor": "Run",
@@ -82,14 +79,14 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ricar/Desktop/MASTER, DESARROLLO DE SOFTWARE Y NEGOCIO DIGITAL/WORK SPACE/java-23-RichiLP2001",
+    "last_opened_file_path": "C:/Users/ricar/Desktop/MASTER, DESARROLLO DE SOFTWARE Y NEGOCIO DIGITAL/WORK SPACE/java-25-RichiLP2001",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.XMLFileCreator">
+  <component name="RunManager" selected="Application.Writer">
     <configuration name="DeleteFiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.campusdual.iofiles.DeleteFiles" />
       <module name="hello-world" />
@@ -103,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.campusdual.exceptions.Exceptions" />
+    <configuration name="JsonFileCreator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.campusdual.json.JsonFileCreator" />
       <module name="hello-world" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.campusdual.exceptions.*" />
+          <option name="PATTERN" value="com.campusdual.json.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Writer" />
+        <item itemvalue="Application.JsonFileCreator" />
         <item itemvalue="Application.XMLFileCreator" />
         <item itemvalue="Application.Reader" />
         <item itemvalue="Application.DeleteFiles" />
-        <item itemvalue="Application.Writer" />
-        <item itemvalue="Application.Exceptions" />
       </list>
     </recent_temporary>
   </component>
